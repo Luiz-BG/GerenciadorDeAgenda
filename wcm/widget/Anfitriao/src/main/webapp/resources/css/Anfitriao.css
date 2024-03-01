@@ -1,0 +1,290 @@
+nav {
+	block-size: fit-content;
+	height: 100px;
+}
+
+/* Import Google font - Poppins */
+html { -
+	-main-color: #2F5597; -
+	-second-bg-color: #323946; -
+	-white: #fff; -
+	-cores: linear-gradient(90deg, rgba(238, 23, 91, 1) 31%,
+		rgba(255, 157, 0, 1) 100%);
+	font-size: 14px;
+	font-family: "Andale Mono";
+}
+
+* {
+	outline: none;
+	box-sizing: border-box;
+	margin: 0;
+	outline: 0;
+}
+
+.panel-heading {
+	font-size: 150%;
+}
+
+h11 {
+	color: red;
+}
+
+.brief {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*CODIGO DO TESTE*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	position: relative;
+	max-width: 1000px;
+	width: 100%;
+	background: #fff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container header {
+	font-size: 2.5rem;
+	color: #333;
+	font-weight: 500;
+	text-align: center;
+}
+
+.container .form {
+	margin-top: 30px;
+}
+
+.form .input-box {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.input-box label {
+	color: #333;
+}
+
+.select-box {
+	position: relative;
+	height: 50px;
+	width: 98%;
+	outline: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	padding: 0 0;
+}
+
+.input-box input:focus {
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+	display: flex;
+	column-gap: 15px;
+}
+
+.form .mod-box {
+	margin-top: 20px;
+}
+
+.mod-box h3 {
+	color: #333;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+.form :where (.input-box input) {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	outline: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	padding: 0 0;
+}
+
+.form
+ 
+:where
+ 
+(
+.mod-option
+,
+.mod
+ 
+)
+{
+display
+:
+ 
+flex
+;
+
+	
+align-items
+:
+ 
+center
+;
+
+	
+column-gap
+:
+ 
+50
+px
+;
+
+	
+flex-wrap
+:
+ 
+wrap
+;
+
+
+}
+.form .mod {
+	column-gap: 5px;
+}
+
+.mod input {
+	accent-color: #FB0058;
+}
+
+.form
+ 
+:where
+ 
+(
+.mod
+ 
+input
+,
+.mod
+ 
+label
+ 
+)
+{
+cursor
+:
+ 
+pointer
+;
+
+
+}
+.mod label {
+	color: #707070;
+}
+
+.select-box select {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+}
+
+.enviar {
+	font-size: 1rem;
+	font-family: sans serif;
+	height: 55px;
+	width: 98%;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-top: 30px;
+	border: none;
+	cursor: pointer;
+	background: #58595B;
+}
+
+.lupa:hover {
+	background: #D5004B;
+}
+
+.cadastro, .clienteProspect {
+	display: flex;
+	box-sizing: border-box;
+}
+
+.clienteProspect {
+	margin: 20px;
+	margin-bottom: 20px;
+}
+
+.logo {
+	position: fixed;
+}
+
+.container-home {
+	position: relative;
+	padding: 25px;
+}
+
+.imagem {
+	height: 850px;
+	width: 1920px;
+}
+
+.botoes {
+	height: fit-content;
+	width: fit-content;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	border: none;
+	cursor: pointer;
+}
+
+.selecione-box {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	outline: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	padding: 0 0;
+}
+
+.selecione-box .select {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	border: none;
+}
+
+.logoConvidado {
+	height: 32px;
+	width: 150px;
+	position: absolute;
+	left: 20px
+}
+
+.tituloRelativo {
+	position: relative;
+	font-size: 3.5rem
+	
+}
+
+.selecione-texto {
+	width: 98%;
+	font-size: 14px;
+	height: 46px;
+}
+
+.height-100 {
+	height: 100%;
+}
